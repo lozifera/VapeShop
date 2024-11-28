@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/carrito.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="nav-cont">
+        <label class="menu-lable" id="home"></label>
+        <nav class="menu">
+            <label class="menu-lable" for = "menu-swich" >
+                <img src="../image/iconos/menu-hamburguesa.svg" alt="Menu" class="logo">
+            </label>
+            <input type="checkbox" id="menu-swich">
+            <ul id="menu-categories">
+            </ul>
+        </nav>
+
+            <input type="checkbox" id="menu-swich">
+
+        <label class="menu-shop" id="menu-shop" ></label> 
+        <label class="menu-user" id="menu-user"></label>  
+    </header>
+    <main class="main_cont">
+        <section id="lista-carrito">
+
+        </section>
+        <div class="total">
+            <div>
+                <p>Total</p>
+                <p id="total"></p>
+            </div>
+
+            <button onclick="realizarPedido()">pedido</button>
+        </div>
+        
+    </main>
+    <script src="../Javascript/detalleCarrito.js"></script>
+    <script src="../Javascript/menu.js"></script>
+</body>
+</html>

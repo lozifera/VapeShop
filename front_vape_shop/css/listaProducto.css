@@ -1,0 +1,33 @@
+.div-con{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    width: 100px;
+    height: 10px;
+}
+.arow {
+    width: 10px; 
+    height: auto;
+    margin: 0px; 
+}
+.div-con h1{
+    font-family: 'Fira Code', monospace;
+    font-size: 10px;
+
+}
+@media (min-width: 768px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+}
+@media(min-width: 992px){
+    body {
+        display: flex;
+        justify-content: fl;
+        gap: 0;
+    }
+}
+

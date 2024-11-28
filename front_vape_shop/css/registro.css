@@ -1,0 +1,73 @@
+.registo-container {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+.ma_co{
+    margin-bottom: 100%;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.registo-container input {
+    width: 360px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registo-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registo-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media (min-width: 768px) {
+    .registo-container {
+        width: 500px;
+        padding: 30px;
+    }
+
+    .registo-container input {
+        width: 480px;
+        padding: 12px;
+    }
+
+    .registo-container input[type="submit"] {
+        padding: 12px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 320px) {
+    .registo-container {
+        width: 280px;
+        padding: 15px;
+    }
+
+    .registo-container input {
+        width: 260px;
+        padding: 8px;
+    }
+
+    .registo-container input[type="submit"] {
+        padding: 8px;
+        font-size: 14px;
+    }
+}

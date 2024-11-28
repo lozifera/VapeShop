@@ -1,0 +1,95 @@
+.registo-container {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.ma_co{
+    margin-bottom: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+.registo-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registo-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+/**/
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+@media (min-width: 768px) {
+    .registo-container {
+        width: 700px;
+        padding: 15px;
+    }
+
+    .registo-container input {
+        width: 95%;
+        padding: 8px;
+    }
+
+    .registo-container input[type="submit"] {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    .registo-container {
+        width: 290px;
+        
+        padding: 10px;
+    }
+
+    .registo-container input {
+        width: 280px;
+        padding: 6px;
+    }
+
+    .registo-container input[type="submit"] {
+        padding: 6px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,21 @@
+
+body {
+    background-image: url(../image/fondos/fondo1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #4682B4; 
+    font-family: 'Fira Code', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 70px;
+}
+html {
+    height: 100%;
+}
+.linia {
+    border-top: 3px solid #4682B4;
+}

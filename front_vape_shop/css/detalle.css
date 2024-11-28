@@ -1,0 +1,100 @@
+.titulo-cont h1, .car-cont h2, .p-cont p {
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    
+}
+
+ h2 {
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    color: rgb(189, 22, 22);
+}
+.counter-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    list-style: none;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.img-cont img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+.img-cont {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-cont label {
+    width: 10px;
+    height: 10px;
+    background-color: bisque;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.cont-cont {
+    background-color: rgb(171, 170, 171);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-name {
+    color: blue; /* Cambia el color según tu preferencia */
+}
+
+.product-description {
+    color: green; /* Cambia el color según tu preferencia */
+}
+
+.product-price {
+    color: red; /* Cambia el color según tu preferencia */
+}
+
+@media (min-width: 992px) {
+    .img-cont {
+        justify-content: flex-start;
+        width: 700px;
+    }
+
+    .img-cont img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .main-cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        gap: 70px;
+    }
+
+    .p-cont {
+        width: 300px;
+    }
+
+    .cont-cont {
+        width: 800px;
+        height: 100%;
+    }
+}

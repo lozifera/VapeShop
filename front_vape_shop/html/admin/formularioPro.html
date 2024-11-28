@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/formularioProducto.css">
+    <link rel="stylesheet" href="../../css/body.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="nav-cont">
+        <nav class="menu">
+            <label class="menu-lable" for = "menu-swich" >
+                <img src="../../image/iconos/menu-hamburguesa.svg" alt="Menu" class="logo">
+            </label>
+            <input type="checkbox" id="menu-swich">
+            <ul id="menu-categories">
+                <li><a href="menuAdmin.html">Home</a></li>
+                <li><a href="productoAdmin.html">Administrar Productos</a></li>
+                <li><a href="../admin/formularioPro.html">Agregar Producto</a></li>
+                <li><a href="../admin/formularioCat.html">Agregar Categoria</a></li>
+                <li><a href="/admin/orders">Administrar Ordenes</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <main>
+        
+            <form class="form"  id="registro-prod">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="form-input" required><br><br>
+                
+                <label for="descripcion" class="form-label">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" class="form-textarea" required></textarea><br><br>
+                
+                <label for="archivo" class="form-label">Archivo:</label>
+                <input type="file" id="archivo" name="archivo" class="form-input" accept="image/*"><br><br>
+                
+                <img id="preview" src="#" alt="Vista previa de la imagen" class="form-preview" style="display: none; max-width: 200px; max-height: 200px;"><br><br>
+                
+                <label for="precio" class="form-label">Precio:</label>
+                <input type="number" step="0.01" id="precio" name="precio" class="form-input" required><br><br>
+                
+                <label for="stock" class="form-label">Stock:</label>
+                <input type="number" id="stock" name="stock" class="form-input" required><br><br>
+                
+                <label for="id_categoria" class="form-label">ID Categoría:</label>
+                <select id="id_categoria" name="id_categoria" class="form-input" required>
+                    <option value="" disabled selected>Seleccione una categoría</option>
+                </select><br><br>   
+                        
+                <button id="reg_btn" type="submit" class="btn btn-primary">Register</button>
+            </form>
+    </main>
+    <script src="../../Javascript/formularioPro.js">
+
+    </script>
+</body>
+</html>

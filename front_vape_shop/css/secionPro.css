@@ -1,0 +1,73 @@
+.section-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.item-conten {
+    width: 300px;
+    margin: 20px;
+    padding: 5px;
+    background: linear-gradient(to right, #5fdfff, #977bfe);
+    border-radius: 5px;
+    text-align: center;
+    height: 200px;
+    overflow: hidden;
+    transition: height 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-conten:hover {
+    height: auto;
+    background-color: #37bdbd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item-conten img {
+    width: 290px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.div-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.div-cont p, .div-cont button {
+    font-size: 16px;
+    font-family: 'Fira Code', monospace;
+}
+
+.div-cont p {
+    color: red;
+}
+
+.item-conten h2 {
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 3px;
+}
+
+@media (max-width: 320px) {
+    .item-conten {
+        width: 90%;
+        margin: 10px;
+        height: auto;
+    }
+
+    .item-conten img {
+        width: 100%;
+        height: auto;
+    }
+
+    .div-cont {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

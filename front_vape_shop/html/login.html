@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header class="nav-cont">
+        <label class="menu-lable" id="home"></label>
+        <nav class="menu">
+            <label class="menu-lable" for = "menu-swich" >
+                <img src="../image/iconos/menu-hamburguesa.svg" alt="Menu" class="logo">
+            </label>
+            <input type="checkbox" id="menu-swich">
+            <ul id="menu-categories">
+            </ul>
+        </nav>
+
+            <input type="checkbox" id="menu-swich">
+
+        <label class="menu-shop" id="menu-shop" ></label> 
+        <label class="menu-user" id="menu-user"></label>  
+    </header>
+
+    <main class="ma_co">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form>
+                <input type="text" placeholder="Correo" required>
+                <input type="password" placeholder="Contraseña" required>
+                <button type="submit">Login</button>
+                <br>
+                <br>
+                <button type="button" onclick="window.location.href='registro.html'">Registro</button>
+                <p id="error-message" style="color: red;"></p>
+            </form>
+        </div>
+    </main>
+    <script src="../Javascript/menu.js"></script>
+    <script src="../Javascript/login.js"></script>
+</body>
+</html>

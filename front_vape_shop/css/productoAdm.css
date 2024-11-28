@@ -1,0 +1,63 @@
+.section-contenedor {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.item-conten {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin: 10px;
+    padding: 5px;
+    background: linear-gradient(to right, #5fdfff, #977bfe); /* Degradado de izquierda a derecha */
+    border-radius: 5px;
+    text-align: center;
+    height: 200px;
+    overflow: hidden;
+    transition: height 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.item-conten img {
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+    border-radius: 5px;
+}
+.cont-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.div-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 10px;
+}
+
+.div-cont p, button {
+    font-size: 16px;
+    font-family: 'Fira Code', monospace;
+}
+
+.div-cont p {
+    color: red;
+}
+
+.item-conten h2 {
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 3px;
+}
